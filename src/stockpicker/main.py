@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 import warnings
-from datetime import datetime
 from stockpicker.crew import Stockpicker
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
@@ -10,7 +9,7 @@ def run():
     Run the research crew.
     """
     inputs = {
-        'sector': 'Artificial Intelligence',
+        'sector': 'Technology',
     } 
 
     try:
